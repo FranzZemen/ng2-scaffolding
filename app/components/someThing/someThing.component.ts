@@ -5,9 +5,9 @@ import {Component} from '@angular/core';
 
 @Component ({
   selector: 'some-thing',
-  templateUrl: 'app/components/someThing.component.html',
+  templateUrl: 'app/components/someThing/someThing.component.html',
   directives: [],
-  styleUrls: ['app/components/someThing.component.css']
+  styleUrls: ['app/components/someThing/someThing.component.css']
 })
 export class SomeThing {
   thing: string = 'I\'m a thing';

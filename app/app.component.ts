@@ -8,8 +8,8 @@ let thisAppComponent;
 @Component({
   selector: 'my-app',
   templateUrl: 'app/app.component.html',
-  directives: [SomeThing],
-  providers: [SomeStatefulService]
+  directives: [<any>SomeThing],
+  providers: [<any>SomeStatefulService]
 })
 export class AppComponent {
   hello: string = 'Hello World';
